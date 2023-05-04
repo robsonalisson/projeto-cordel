@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500&family=Passion+One&family=Sriracha&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0;
+  
+}
+
+header {
+    
+    background-color: black;
+    padding: 50px;
+}
+
+body {
+    width: 100vw;
+}
+
+header>h1 {
+    font-family: 'Passion One', 'Josefin Sans', sans-serif;
+    font-size: 8em;
+    color: azure;
+    text-align: center;
+    font-weight: normal;
+  min-height: 150px;
+
+}
+
+header>p {
+    text-align: center;
+    color: azure;
+    font-size: 1.2em;
+
+}
+
+header>a {
+    font-weight: bolder;
+    color: azure;
+
+}
+
+header a:visited {
+    color: rgb(219, 111, 219);
+}
+main{
+   width: 100%;
+}
+
+
+
+section.caixa1 {
+    
+    font-family: 'Sriracha', sans-serif;
+    font-size: 3.1em;
+    margin: 30px 10px 10px 20px;
+    padding: 35px 10px 20px 10px;
+    line-height: 95px;
+    max-width: 600px;
+
+}
+section.caixa2{
+ 
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    padding: 20px;
+    background-attachment: fixed;
+background-position: right top;
+}
+article{
+   display: inline-block;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.37);
+    font-family: 'Sriracha', sans-serif;
+    font-size: 3.1em;
+    margin: 10px;
+    padding: 35px 10px 20px 10px;
+    line-height: 95px;
+ 
+   
+}
+section.caixa3{
+    font-family: 'Sriracha', sans-serif;
+    font-size: 3.1em;
+    margin: 30px 10px 5px 20px;
+    padding: 35px 10px 20px 10px;
+    line-height: 95px;
+    max-width: 600px;
+
+}
+section.caixa4{
+    
+    font-family: 'Sriracha', sans-serif;
+    font-size: 1.0em;
+    margin: 30px 10px 30px 10px;
+   
+    line-height: 95px;
+    max-width: 1000px;
+
+}
+span{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+
+}
+section.caixa5{
+    background-image: url(imagens/background002.jpg);
+    width: 100vw;
+    padding: 20px 20px 43px 20px;
+    background-attachment: fixed;
+    background-position: right top;
+    margin: -5px 10px 11px -29px;
+
+
+    
+   
+}
+.caixa5 article{
+   
+
+font-family: 'Sriracha', sans-serif;
+font-size: 1em;
+margin: 30px 10px 5px 10px;
+
+line-height: 95px;
+max-width: 600px;}
+.caixa6{
+    font-family: 'Sriracha', sans-serif;
+    font-size: 1.0em;
+    margin: 30px 10px 30px 10px;
+   
+    line-height: 95px;
+    max-width: 1000px;
+
+
+}
+.caixa7{
+    font-family: 'Sriracha', sans-serif;
+    font-size: 1.0em;
+    margin: 30px 10px 30px 10px;
+   
+    line-height: 95px;
+    max-width: 1000px;
+
+
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: azure;
+    padding: 20px;
+    font-size: 18px;
+}
+footer a{
+    font-weight: bolder;
+    color: azure;
+}
+footer a:visited{
+    color: rgb(219, 111, 219);
+}
