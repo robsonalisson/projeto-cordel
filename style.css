@@ -26,7 +26,7 @@ header {
 header>h1 {
     padding-top: 50px;
     font-family: var(--font2);
-    font-size: 8em;
+    font-size: 10vw;/* baseado na largura da tela ,fica responsivo mais não é o melhor recurso o melhor seria @media */
     font-variant: small-caps;/*todas as letras maiusculas mais a do começo maiores*/
 
 }
@@ -58,16 +58,14 @@ section{/*cria um espaço em cima e em baixo que pode se adptar*/
     line-height: 2em; /*espaço entre as linhas*/
     padding-left: 30px;
     font-family: var(--font3);
+    font-size: 3vw;
 }
 
 section.normal {
     background-color: white;
     color: black;
-  
-    font-size: 3.1em;
-    margin: 30px 10px 10px 20px;
+    
    
-    max-width: 600px;
 
 }
 section.imagem{
@@ -81,16 +79,16 @@ background-position: right top;
 }
 .imagem p , .imagem2 p{
     background-color: rgba(0, 0, 0, 0.411);
-    width: 400px;
+    display: inline-block;/* ta servindo pra caixa se adptar ao paragrafo dentro da caixa*/
+    font-size: 3vw;
+    padding: 5px;
 }
 section.imagem2{
     color: white;
     background-image: url(imagens/background002.jpg);
-    width: 100vw;
-    padding: 20px 20px 43px 20px;
     background-attachment: fixed;
     background-position: right top;
-    margin: -5px 10px 11px -29px;
+   
 }
 footer{
     text-align: center;
