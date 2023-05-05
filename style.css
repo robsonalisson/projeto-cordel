@@ -1,150 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500&family=Passion+One&family=Sriracha&display=swap');
-
+ :root{
+    --font1: verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', 'Josefin Sans', sans-serif;
+    --font3: 'Sriracha', sans-serif;
+ }
 
 
 * {
     margin: 0px;
-    padding: 0;
+    padding: 0px;
   
 }
+html,body{
+    min-height: 100vh;
+}
+    
 
 header {
-    
+    text-align: center;
+    color: white;
     background-color: black;
-    padding: 50px;
-}
-
-body {
-    width: 100vw;
+    
 }
 
 header>h1 {
-    font-family: 'Passion One', 'Josefin Sans', sans-serif;
+    padding-top: 50px;
+    font-family: var(--font2);
     font-size: 8em;
-    color: azure;
-    text-align: center;
-    font-weight: normal;
-  min-height: 150px;
+    font-variant: small-caps;/*todas as letras maiusculas mais a do começo maiores*/
 
 }
 
 header>p {
+    padding-bottom: 50px;
     text-align: center;
     color: azure;
     font-size: 1.2em;
 
 }
 
-header>a {
+header a, footer a  {
     font-weight: bolder;
     color: azure;
+    text-decoration: none;
 
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
 }
 
 header a:visited {
     color: rgb(219, 111, 219);
 }
-main{
-   width: 100%;
+section{/*cria um espaço em cima e em baixo que pode se adptar*/
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*espaço entre as linhas*/
+    padding-left: 30px;
+    font-family: var(--font3);
 }
 
-
-
-section.caixa1 {
-    
-    font-family: 'Sriracha', sans-serif;
+section.normal {
+    background-color: white;
+    color: black;
+  
     font-size: 3.1em;
     margin: 30px 10px 10px 20px;
-    padding: 35px 10px 20px 10px;
-    line-height: 95px;
+   
     max-width: 600px;
 
 }
-section.caixa2{
- 
+section.imagem{
+    background-color: black;
+    color:white;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     padding: 20px;
     background-attachment: fixed;
 background-position: right top;
 }
-article{
-   display: inline-block;
-    color: azure;
-    background-color: rgba(0, 0, 0, 0.37);
-    font-family: 'Sriracha', sans-serif;
-    font-size: 3.1em;
-    margin: 10px;
-    padding: 35px 10px 20px 10px;
-    line-height: 95px;
- 
-   
+.imagem p , .imagem2 p{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 400px;
 }
-section.caixa3{
-    font-family: 'Sriracha', sans-serif;
-    font-size: 3.1em;
-    margin: 30px 10px 5px 20px;
-    padding: 35px 10px 20px 10px;
-    line-height: 95px;
-    max-width: 600px;
-
-}
-section.caixa4{
-    
-    font-family: 'Sriracha', sans-serif;
-    font-size: 1.0em;
-    margin: 30px 10px 30px 10px;
-   
-    line-height: 95px;
-    max-width: 1000px;
-
-}
-span{
-    display: inline-block;
-    position: absolute;
-    margin-left: 10px;
-
-}
-section.caixa5{
+section.imagem2{
+    color: white;
     background-image: url(imagens/background002.jpg);
     width: 100vw;
     padding: 20px 20px 43px 20px;
     background-attachment: fixed;
     background-position: right top;
     margin: -5px 10px 11px -29px;
-
-
-    
-   
-}
-.caixa5 article{
-   
-
-font-family: 'Sriracha', sans-serif;
-font-size: 1em;
-margin: 30px 10px 5px 10px;
-
-line-height: 95px;
-max-width: 600px;}
-.caixa6{
-    font-family: 'Sriracha', sans-serif;
-    font-size: 1.0em;
-    margin: 30px 10px 30px 10px;
-   
-    line-height: 95px;
-    max-width: 1000px;
-
-
-}
-.caixa7{
-    font-family: 'Sriracha', sans-serif;
-    font-size: 1.0em;
-    margin: 30px 10px 30px 10px;
-   
-    line-height: 95px;
-    max-width: 1000px;
-
-
 }
 footer{
     text-align: center;
