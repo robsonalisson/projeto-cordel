@@ -26,8 +26,8 @@ header {
 header>h1 {
     padding-top: 50px;
     font-family: var(--font2);
-    font-size: 10vw;/* baseado na largura da tela ,fica responsivo mais não é o melhor recurso o melhor seria @media */
-    font-variant: small-caps;/*todas as letras maiusculas mais a do começo maiores*/
+    font-size: 10vw;
+    font-variant: small-caps;
 
 }
 
@@ -52,10 +52,10 @@ header a:hover, footer a:hover{
 header a:visited {
     color: rgb(219, 111, 219);
 }
-section{/*cria um espaço em cima e em baixo que pode se adptar*/
+section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em; /*espaço entre as linhas*/
+    line-height: 2em; 
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 3vw;
@@ -80,7 +80,7 @@ box-shadow: rgba(0, 0, 0, 0.384) 6px 6px 13px 1px inset;
 }
 .imagem p , .imagem2 p{
     background-color: rgba(0, 0, 0, 0.411);
-    display: inline-block;/* ta servindo pra caixa se adptar ao paragrafo dentro da caixa*/
+    display: inline-block;
     font-size: 3vw;
     padding: 5px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.781);
