@@ -75,19 +75,23 @@ section.imagem{
     background-size: cover;
     padding: 20px;
     background-attachment: fixed;
-background-position: right top;
+background-position: right center;
+box-shadow: rgba(0, 0, 0, 0.384) 6px 6px 13px 1px inset;
 }
 .imagem p , .imagem2 p{
     background-color: rgba(0, 0, 0, 0.411);
     display: inline-block;/* ta servindo pra caixa se adptar ao paragrafo dentro da caixa*/
     font-size: 3vw;
     padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.781);
 }
 section.imagem2{
     color: white;
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
-    background-position: right top;
+    box-shadow: rgba(0, 0, 0, 0.384) 6px 6px 13px 1px inset;
+    background-size: cover;
+
    
 }
 footer{
